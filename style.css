@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(https://img.freepik.com/free-photo/graphic-2d-colorful-wallpaper-with-grainy-gradients_23-2151001489.jpg?t=st=1728191004~exp=1728194604~hmac=d2df7f9ee01b80f35aa303de0c7c9c4dcc079236653c828cca85f2b27c988ccd&w=360);
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 255);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 2% 3%;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    width: 80% !important;
+    padding: 10px;
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.heading {
+    margin: 10px 0;
+}
+
+#container {
+    width: 80% !important;
+    /* background-color: white; */
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 10px;
+    color: black;
+    background: linear-gradient(to right,rgb(255,0,0),rgba(118, 9, 208, 0.5)) !important;
+}
